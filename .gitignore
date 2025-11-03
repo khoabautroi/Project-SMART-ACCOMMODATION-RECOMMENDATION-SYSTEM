@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.env/
+.venv/
+pip-wheel-metadata/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Test and coverage
+.pytest_cache/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
