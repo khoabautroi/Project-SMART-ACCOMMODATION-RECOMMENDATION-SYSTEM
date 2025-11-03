@@ -1,16 +1,16 @@
-# Project SMART ACCOMMODATION RECOMMENDATION SYSTEM
+<img width="1265" height="574" alt="image" src="https://github.com/user-attachments/assets/d16ec618-f79a-4e71-ba81-213a5fa2beb3" /># Project SMART ACCOMMODATION RECOMMENDATION SYSTEM
 
 ##  Mô tả
 Làm quen quy trình làm việc nhóm với Git/GitHub dựa trên phân rã bài toán
 lớn thành bài toán con
 
 ##  Thành viên & phân công
-- 24127061 - Ngô Trần Anh Khoa - 
-- 24127099 - Phan Tuấn Phong -
-- 24127107 - Lê Đức Phúc -
-- 24127114 - Thiều Quang - 
-- 24127327 - Hà Văn Nguyên Bảo -
-- 24127416 - Nguyễn Vũ Thiên Khanh - 
+- 24127061 - Ngô Trần Anh Khoa - Tổng hợp, tài liệu hóa toàn bộ hệ thống
+- 24127099 - Phan Tuấn Phong - Thu thập & phân tích dữ liệu chỗ ở
+- 24127107 - Lê Đức Phúc - Tiền xử lý & làm sạch dữ liệu
+- 24127114 - Thiều Quang - Huấn luyện & đánh giá mô hình
+- 24127327 - Hà Văn Nguyên Bảo - Xây dựng mô hình gợi ý
+- 24127416 - Nguyễn Vũ Thiên Khanh - Xây dựng giao diện demo (UI)
 
 ##  Cách chạy
 ```bash
