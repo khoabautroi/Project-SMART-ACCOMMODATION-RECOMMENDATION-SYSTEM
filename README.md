@@ -1,4 +1,4 @@
-<img width="1265" height="574" alt="image" src="https://github.com/user-attachments/assets/d16ec618-f79a-4e71-ba81-213a5fa2beb3" /># Project SMART ACCOMMODATION RECOMMENDATION SYSTEM
+# Project SMART ACCOMMODATION RECOMMENDATION SYSTEM
 
 ##  Mô tả
 Làm quen quy trình làm việc nhóm với Git/GitHub dựa trên phân rã bài toán
