@@ -86,12 +86,12 @@ Phần này trình bày tổng quan pipeline thuật toán mà nhóm sử dụng
 ### ⚙️ 3.2 Pipeline tổng quát
 | Giai đoạn | Module phụ trách | Mô tả ngắn |
 |------------|------------------|-------------|
-| Data Collection | Thành viên 1 | Thu thập và lưu dữ liệu |
-| Data Cleaning | Thành viên 2 | Làm sạch và chuẩn hoá dữ liệu |
-| Model Research | Thành viên 3 | Nghiên cứu mô hình gợi ý |
-| Train & Evaluate | Thành viên 4 | Huấn luyện và đánh giá mô hình |
-| Frontend UI | Thành viên 5 | Hiển thị kết quả gợi ý qua chatbot |
-| Documentation | Nhóm trưởng | Tổng hợp và quản lý quy trình Git |
+| Data Collection | 24127099 | Thu thập và lưu dữ liệu |
+| Data Cleaning | 24127107 | Làm sạch và chuẩn hoá dữ liệu |
+| Model Research | 24127327 | Nghiên cứu mô hình gợi ý |
+| Train & Evaluate | 24127114 | Huấn luyện và đánh giá mô hình |
+| Frontend UI | 24127416 | Hiển thị kết quả gợi ý qua chatbot |
+| Documentation | 24127061 | Tổng hợp và quản lý quy trình Git |
 
 > 🔸 *Chi tiết thuật toán từng module (data, model, UI, ...) sẽ được trình bày trong các file `.md` riêng của từng thành viên.*
 
