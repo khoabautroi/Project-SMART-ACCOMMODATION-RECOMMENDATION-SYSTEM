@@ -39,9 +39,11 @@ Cụ thể, dự án hướng tới mục tiêu:
 ## 🧠 2. Computational Thinking Application
 ### 2.1 Problem Analysis
 **Input:**  
-- Vị trí: Thành phố nơi người dùng tìm kiếm chỗ ở (VD: “Đà Nẵng”).  
-- Ngân sách: 500.000 – 1.000.000 VND/đêm.  
-- Sở thích: Gần biển, yên tĩnh, thân thiện với gia đình.  
+- Vị trí người dùng (Thành phố hiện tại nơi người dùng đang tìm kiếm chỗ nghỉ (ví dụ: “Đà Nẵng”, “Hà Nội”).
+- Khoảng ngân sách (Mức giá tối thiểu và tối đa mà người dùng sẵn sàng trả cho mỗi đêm (ví dụ: 500.000 – 1.000.000 VND).
+- Sở thích (Sở thích cá nhân của người dùng về chỗ nghỉ, chẳng hạn như “gần biển”, “yên tĩnh”, “thân thiện với gia đình”, “hướng núi”, v.v.).
+- Mức độ ưu tiên (Chỉ ra những gì quan trọng nhất đối với người dùng: giá cả, khoảng cách hoặc xếp hạng. Được sử dụng để xếp hạng các đề xuất).
+- Thời gian lưu trú (Số đêm người dùng dự định lưu trú (được sử dụng để tính tổng chi phí hoặc đề xuất giảm giá).
 
 **Output:**  
 - Danh sách 3–5 khách sạn phù hợp trong phạm vi ngân sách, có tên, giá và đánh giá.
