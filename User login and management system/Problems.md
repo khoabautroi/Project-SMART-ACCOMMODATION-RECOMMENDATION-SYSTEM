@@ -3,32 +3,52 @@ Thiết kế giao diện đăng nhập, đăng ký và quản lý thông tin ng�
 
 ## Chúng ta biết:
 
-- Cần xác thực người dùng
+- Hệ thống có 2 loại người dùng: khách thuê (renter) và chủ nhà (owner)
 
-- Cần phân loại người dùng (khách thuê, chủ nhà)
+- Cần thu thập thông tin cơ bản: email, mật khẩu, tên, số điện thoại
 
-- Cần lưu trữ thông tin cá nhân cơ bản
+- Cần lưu trữ preferences người dùng cho recommendation system
+
+- Có yêu cầu bảo mật cơ bản (mật khẩu phải mã hóa)
+
+- Cần xác thực email cho tài khoản mới
 
 ## Chúng ta cần:
 
-- Giao diện đăng nhập/đăng ký thân thiện
+- Giao diện đăng nhập với email/password
 
-- Phân quyền truy cập
+- Form đăng ký với validation
 
-- Quản lý profile người dùng
+- Trang quản lý profile người dùng
+
+- Chức năng đổi mật khẩu
+
+- Phân quyền truy cập dựa trên user type
+
+- Lưu trữ user preferences (ngân sách, loại chỗ ở, tiện nghi ưa thích)
 
 ## Ràng buộc:
 
-- Bảo mật thông tin đăng nhập
+- Technical: Phải tương thích với backend authentication system
 
-- Tuân thủ quy định bảo vệ dữ liệu
+- Security: Mật khẩu phải đủ mạnh, session management an toàn
 
-- Hỗ trợ đa nền tảng
+- Performance: Thời gian load trang < 3 giây
+
+- UX: Quy trình đăng ký không quá 5 bước
+
+- Compliance: Tuân thủ GDPR cho dữ liệu người dùng châu Âu
 
 ## Đang thiếu:
 
-- Chi tiết về phương thức xác thực
+- API Specifications: Chi tiết endpoints cho login/register
 
-- Quy trình khôi phục mật khẩu
+- Data Models: Cấu trúc chính xác của user object từ backend
 
-- Integration với hệ thống backend
+- Error Handling: Các loại error messages từ server
+
+- Third-party Integration: Social login (Google, Facebook) requirements
+
+- Password Policy: Quy tắc mật khẩu cụ thể từ security team
+
+- Session Management: Cơ chế refresh token, timeout duration

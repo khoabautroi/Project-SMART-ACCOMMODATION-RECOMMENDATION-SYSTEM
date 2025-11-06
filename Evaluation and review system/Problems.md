@@ -1,39 +1,56 @@
 ## Vấn đề
 
-Thiết kế hệ thống đánh giá và nhận xét
+Thiết kế dashboard cho chủ nhà và người thuê
 
 ## Chúng ta biết:
 
-- Cần rating system (sao)
+- Reviews phải từ khách đã thực sự ở tại property
 
-- Cần text reviews
+- Cần rating system 5 sao với multiple criteria
 
-- Cần photo reviews
+- Cần photo reviews để tăng độ tin cậy
 
-- Cần moderation system
+- Cần moderation system để filter inappropriate content
+
+- Cần response system cho chủ nhà
+
 
 ## Chúng ta cần:
 
-- Review submission form
+- Review submission form sau khi stay completed
 
-- Review display và filtering
+- Review display với sorting và filtering
 
-- Photo upload cho reviews
+- Photo upload và moderation
 
 - Helpful votes system
 
+- Review summary với average ratings
+
 ## Ràng buộc:
 
-- Spam prevention
+- Authenticity: Chỉ cho phép reviews từ verified stays
 
-- Content moderation
+- Moderation: Content phải được kiểm duyệt trong 24h
 
-- Fair rating system
+- Spam Prevention: Giới hạn số review/user/time period
+
+- Legal: Tuân thủ laws về defamation và privacy
+
+- UX: Review system không được quá intrusive
+
+- Data: Reviews phải persistent và không thể xóa bởi owner
 
 ## Đang thiếu:
 
-- Review guidelines
+- Review Guidelines: Chính sách nội dung được phép/không được phép
 
-- Moderation workflow
+- Moderation Tools: Dashboard cho admin moderation
 
-- Fraud detection system
+- Fraud Detection: Algorithm phát hiện fake reviews
+
+- Incentive Policy: Quy định về incentives cho reviews
+
+- Data Export: Cách thức export reviews data
+
+- API Integration: Endpoints cho review management

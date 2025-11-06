@@ -3,34 +3,53 @@ Thiết kế giao diện tìm kiếm chỗ ở với bộ lọc thông minh
 
 ## Chúng ta biết:
 
-- Người dùng cần tìm kiếm theo địa điểm, thời gian, giá cả
+- Người dùng cần tìm kiếm theo: location, dates, số lượng khách, giá
 
-- Cần đề xuất thông minh dựa trên preferences
+- Có 4 loại chỗ ở chính: apartment, house, villa, condo
 
-- Cần so sánh các option
+- Cần hỗ trỵ tìm kiếm bằng giọng nói và hình ảnh (future feature)
 
+- Dữ liệu location phải nhất quán (thành phố, quận, phường)
+
+- Cần hiển thị kết quả theo cả list view và map view
 ## Chúng ta cần:
 
-- Search bar với autocomplete
+- Search bar với real-time autocomplete
 
-- Bộ lọc nâng cao (giá, tiện nghi, đánh giá, vị trí)
+- Advanced filters: giá, diện tích, tiện nghi, đánh giá, khoảng cách
 
-- Lưu lịch sử tìm kiếm
+- Quick filters: "phổ biến", "giá tốt", "đánh giá cao"
 
-- Giao diện hiển thị kết quả linh hoạt
+- Lưu search history và favorite searches
+
+- Responsive design cho mobile và desktop
+
+- Integration với map service
 
 ## Ràng buộc:
 
-- Performance với lượng dữ liệu lớn
+- Performance: Search results phải load trong < 2 giây
 
-- UI/UX đơn giản nhưng mạnh mẽ
+- Data: Phải xử lý 10,000+ properties một cách hiệu quả
 
-- Responsive trên mobile
+- Technical: Phải hỗ trợ pagination (phân trang)
+
+- UX: Không quá 7 filters hiển thị cùng lúc
+
+- Browser: Phải chạy trên Chrome, Firefox, Safari, Edge
+
+- Mobile: Touch-friendly cho filter interactions
 
 ## Đang thiếu:
 
-- Thuật toán ranking cụ thể
+- Search Algorithm: Logic ranking của search results
 
-- API endpoints cho search
+- API Rate Limiting: Giới hạn số request tìm kiếm
 
-- Data structure cho filters
+- Geolocation Data: Độ chính xác và coverage của location data
+
+- Filter Combinations: Các filter nào có thể kết hợp được
+
+- Default Sort Order: Tiêu chí sắp xếp mặc định
+
+- Spell Check: Hỗ trợ sửa lỗi chính tả

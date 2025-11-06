@@ -4,34 +4,55 @@ Thiết kế dashboard cho chủ nhà và người thuê
 
 ## Chúng ta biết:
 
-- Cần phân biệt dashboard theo user type
+- Chủ nhà cần: property management, booking calendar, financial reports
 
-- Cần thống kê và analytics
+- Người thuê cần: booking history, favorites, messages
 
-- Cần quản lý multiple properties
+- Cần real-time notifications
+
+- Cần analytics và insights
+
+- Cần responsive design cho mobile management
+
 
 ## Chúng ta cần:
 
-- Property management interface
+- Property management CRUD operations
 
-- Booking calendar
+- Booking calendar với sync capabilities
 
-- Financial reports
+- Financial dashboard với charts
 
-- Message center
+- Message center với real-time chat
+
+- Notification center
+
+- Analytics: occupancy rate, revenue, performance metrics
 
 ## Ràng buộc:
 
-- Data security và privacy
+- Data Security: Mỗi user chỉ xem được data của mình
 
-- Real-time updates
+- Performance: Dashboard phải load trong < 3 giây
 
-- Role-based access
+- Real-time: Updates phải reflect trong < 10 giây
+
+- Mobile: Critical actions phải thực hiện được trên mobile
+
+- Data Export: Cho phép export reports dạng CSV/PDF
+
+- Access Control: Role-based permissions
 
 ## Đang thiếu:
 
-- Analytics requirements cụ thể
+- Analytics Requirements: Metrics cụ thể cần tracking
 
-- Reporting formats
+- Reporting Frequency: Real-time vs daily/weekly reports
 
-- Notification preferences
+- Integration: Calendar sync với Google Calendar/Outlook
+
+- Notification Preferences: User settings cho notification types
+
+- Data Retention: Policy về lưu trữ historical data
+
+- Backup System: Disaster recovery procedures

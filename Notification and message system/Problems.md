@@ -4,34 +4,54 @@ Thiết kế hệ thống thông báo và nhắn tin
 
 ## Chúng ta biết:
 
-- Cần real-time notifications
+- Cần hỗ trợ: in-app notifications, email, SMS, push notifications
 
-- Cần messaging giữa host-guest
+- Cần real-time messaging giữa host và guest
 
-- Cần multiple notification channels
+- Cần notification preferences cho từng user
+
+- Cần support multiple languages
+
+- Cần tracking delivery và engagement
 
 ## Chúng ta cần:
 
-- Notification center
+- Real-time chat interface
 
-- Chat interface
+- Notification center với mark as read/delete
 
-- Email/SMS preferences
+- Email templates customizable
 
-- Push notifications
+- SMS integration
+
+- Push notifications cho mobile
+
+- Delivery status tracking
 
 ## Ràng buộc:
 
-- Performance với real-time features
+- Performance: Messages phải deliver trong < 5 giây
 
-- Cross-platform consistency
+- Reliability: 99.9% uptime cho messaging system
 
-- Privacy considerations
+- Scalability: Hỗ trợ 10,000+ concurrent users
+
+- Compliance: Tuân thủ spam laws (CAN-SPAM, GDPR)
+
+- Cost: SMS và push notification costs phải được optimize
+
+- Security: End-to-end encryption cho sensitive messages
 
 ## Đang thiếu:
 
-- Notification triggers
+- Notification Triggers: Events nào trigger notifications nào
 
-- Message templates
+- Message Templates: Nội dung mẫu cho các loại notifications
 
-- Push notification service
+- Rate Limiting: Giới hạn số messages/user/time period
+
+- Third-party Services: Providers cho email/SMS/push
+
+- Localization: Support cho bao nhiêu languages
+
+- Analytics: Tracking open rates, click-through rates

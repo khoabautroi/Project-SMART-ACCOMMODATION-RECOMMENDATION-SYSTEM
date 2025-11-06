@@ -3,36 +3,52 @@ Thiết kế giao diện hiển thị chi tiết thông tin chỗ ở
 
 ## Chúng ta biết:
 
-- Cần hiển thị đa dạng thông tin (ảnh, mô tả, tiện nghi, giá)
+- Mỗi property có: ảnh, mô tả, tiện nghi, giá, availability calendar
 
-- Cần hiển thị đánh giá và review
+- Cần hiển thị reviews và ratings từ người dùng thật
 
-- Cần hiển thị vị trí trên bản đồ
+- Cần map integration để show vị trí chính xác
+
+- Cần hiển thị similar properties
 
 ## Chúng ta cần:
 
-- Image gallery với multiple photos
+- Image gallery với zoom, swipe, full-screen mode
 
-- Thông tin chi tiết property
+- Thông tin chi tiết: host info, house rules, cancellation policy
 
-- Amenities listing
+- Amenities grid với icons và categories
 
-- Review và rating system
+- Review system với photos và ratings breakdown
 
-- Interactive map
+- Interactive map với points of interest
+
+- Price breakdown và additional fees
 
 ## Ràng buộc:
 
-- Load ảnh nhanh, lazy loading
+- Media: Hỗ trợ tối đa 20 ảnh/property, định dạng WebP và JPEG
 
-- Data consistency
+- Performance: Ảnh phải lazy load, không ảnh hưởng đến page speed
 
-- Mobile-friendly image viewing
+- Data: Real-time availability updates
+
+- UX: Người dùng có thể xem tất cả thông tin trong < 10 scrolls
+
+- SEO: Meta tags cho property pages
+
+- Mobile: Image gallery phải touch-friendly
 
 ## Đang thiếu:
 
-- Format data từ backend
+- Image CDN: Solution cho image storage và delivery
 
-- Image storage solution
+- Video Hosting: Platform cho virtual tours
 
-- Map service integration
+- Review Moderation: Quy trình kiểm duyệt review
+
+- Data Freshness: Cách thức update availability real-time
+
+- Map Provider: Chi phí và limitations của map service
+
+- Content Guidelines: Quy định về nội dung mô tả property

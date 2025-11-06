@@ -4,38 +4,52 @@ Thiết kế flow đặt phòng và thanh toán trực tuyến
 
 ## Chúng ta biết:
 
-- Cần chọn ngày, số lượng khách
+- Quy trình: chọn dates → xác nhận details → thanh toán → confirmation
 
-- Cần tính toán tổng chi phí
+- Cần hỗ trợ multiple payment methods: credit card, e-wallet, bank transfer
 
-- Cần multiple payment methods
+- Cần cancellation policy rõ ràng
 
-- Cần xác nhận booking
+- Cần instant booking và request-based booking
 
 ## Chúng ta cần:
 
-- Date picker với validation
+- Date picker với blocked dates và minimum stay validation
 
-- Guest selector
+- Guest counter với rules (trẻ em, pets)
 
-- Price breakdown
+- Price breakdown chi tiết
 
-- Payment form
+- Secure payment form
 
-- Booking confirmation
+- Booking confirmation với mã đặt phòng
+
+- Email/SMS notifications
 
 ## Ràng buộc:
 
-- Security của payment information
+- Security: PCI DSS compliance cho xử lý thẻ tín dụng
 
-- Real-time availability check
+- Legal: Tuân thủ regulations về refund và cancellation
 
-- Error handling
+- UX: Quy trình đặt phòng không quá 5 bước
+
+- Performance: Payment processing < 30 giây
+
+- Error Handling: Xử lý payment failure gracefully
+
+- Mobile: Payment form phải mobile-optimized
 
 ## Đang thiếu:
 
-- Payment gateway integration
+- Payment Gateway: Integration details với Stripe/PayPal
 
-- Booking management API
+- Tax Calculation: Logic tính thuế theo từng khu vực
 
-- Email/SMS notification system
+- Currency Support: Hỗ trợ multi-currency
+
+- Fraud Detection: Hệ thống phòng chống gian lận
+
+- Refund Policy: Quy trình refund chi tiết
+
+- Insurance: Integration với travel insurance providers
